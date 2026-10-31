@@ -1,0 +1,36 @@
+main-menu:
+  title: "&8▶ Shop"
+  rows: 3
+  # Item used to fill empty slots in the main menu. NONE = leave empty.
+  filler: NONE
+
+buttons:
+  # Item shown for the Back button at the bottom of each category.
+  back-item: BRAIN_CORAL
+
+# Currencies a category can use (set "currency: gems" on a category).
+# provider: vault (Vault economy) or playerpoints (PlayerPoints plugin)
+currencies:
+  vault:
+    name: Money
+    symbol: "$"
+    provider: vault
+  gems:
+    name: Gems
+    symbol: "✿"
+    provider: playerpoints
+
+messages:
+  prefix: "&b[Shop] &r"
+  bought: "&aBought &f{amount}x {item} &afor &f{price}&a."
+  sold: "&aSold &f{amount}x {item} &afor &f{price}&a."
+  not-enough-money: "&cYou need &f{price} &cto buy that."
+  inventory-full: "&cYour inventory is full."
+  no-items: "&cYou don't have any {item} to sell."
+  cannot-buy: "&cThat item can't be bought."
+  cannot-sell: "&cThat item can't be sold."
+  currency-unavailable: "&cThis shop's currency isn't available right now."
+  unknown-category: "&cUnknown shop category."
+  no-permission: "&cYou don't have permission."
+  players-only: "&cOnly players can use the shop."
+  reloaded: "&aShop reloaded. Loaded {count} categories."

@@ -1,0 +1,331 @@
+# Each category becomes a button in the main menu.
+# Items are added automatically across as many pages as needed.
+#
+# Category options:
+#   title:          inventory title when the category is open
+#   icon:           item shown in the main menu
+#   slot:           main menu slot (optional, 0-based)
+#   color:          colour code for the tooltips, e.g. "&a"
+#   display-name:   name used in the tooltip text (default = category id)
+#   button-name:    big name on the button (default = display-name)
+#   description:    grey line under the name (optional)
+#   currency:       vault (default) or gems - see config.yml
+#   page-rows:      item rows per page, 1-4 (default 4 = 36 items per page)
+#
+# Item options:
+#   buy:  price to buy 1 item  (use -1 to disable buying)
+#   sell: price you get for 1  (use -1 to disable selling)
+
+categories:
+  blocks:
+    title: "&8▶ Blocks Shop"
+    icon: GRASS_BLOCK
+    slot: 11
+    color: "&a"
+    display-name: Blocks
+    items:
+      STONE: { buy: 10, sell: 2 }
+      COBBLESTONE: { buy: 5, sell: 1 }
+      DIRT: { buy: 4, sell: 1 }
+      COARSE_DIRT: { buy: 6, sell: 1 }
+      GRASS_BLOCK: { buy: 8, sell: 2 }
+      PODZOL: { buy: 10, sell: 2 }
+      MYCELIUM: { buy: 12, sell: 3 }
+      SAND: { buy: 6, sell: 1 }
+      RED_SAND: { buy: 8, sell: 2 }
+      GRAVEL: { buy: 6, sell: 1 }
+      CLAY: { buy: 12, sell: 3 }
+      MUD: { buy: 6, sell: 1 }
+      SNOW_BLOCK: { buy: 10, sell: 2 }
+      ICE: { buy: 12, sell: 3 }
+      PACKED_ICE: { buy: 25, sell: 6 }
+      BLUE_ICE: { buy: 60, sell: 15 }
+      GRANITE: { buy: 8, sell: 2 }
+      DIORITE: { buy: 8, sell: 2 }
+      ANDESITE: { buy: 8, sell: 2 }
+      DEEPSLATE: { buy: 12, sell: 3 }
+      COBBLED_DEEPSLATE: { buy: 8, sell: 2 }
+      TUFF: { buy: 8, sell: 2 }
+      CALCITE: { buy: 12, sell: 3 }
+      DRIPSTONE_BLOCK: { buy: 12, sell: 3 }
+      BASALT: { buy: 10, sell: 2 }
+      SMOOTH_BASALT: { buy: 12, sell: 3 }
+      BLACKSTONE: { buy: 12, sell: 3 }
+      SANDSTONE: { buy: 12, sell: 3 }
+      RED_SANDSTONE: { buy: 14, sell: 3 }
+      SMOOTH_STONE: { buy: 14, sell: 3 }
+      STONE_BRICKS: { buy: 14, sell: 3 }
+      DEEPSLATE_BRICKS: { buy: 16, sell: 4 }
+      BRICKS: { buy: 20, sell: 5 }
+      MUD_BRICKS: { buy: 14, sell: 3 }
+      MOSS_BLOCK: { buy: 15, sell: 3 }
+      GLASS: { buy: 10, sell: 2 }
+      WHITE_WOOL: { buy: 12, sell: 3 }
+      ORANGE_WOOL: { buy: 12, sell: 3 }
+      MAGENTA_WOOL: { buy: 12, sell: 3 }
+      LIGHT_BLUE_WOOL: { buy: 12, sell: 3 }
+      YELLOW_WOOL: { buy: 12, sell: 3 }
+      LIME_WOOL: { buy: 12, sell: 3 }
+      PINK_WOOL: { buy: 12, sell: 3 }
+      GRAY_WOOL: { buy: 12, sell: 3 }
+      LIGHT_GRAY_WOOL: { buy: 12, sell: 3 }
+      CYAN_WOOL: { buy: 12, sell: 3 }
+      PURPLE_WOOL: { buy: 12, sell: 3 }
+      BLUE_WOOL: { buy: 12, sell: 3 }
+      BROWN_WOOL: { buy: 12, sell: 3 }
+      GREEN_WOOL: { buy: 12, sell: 3 }
+      RED_WOOL: { buy: 12, sell: 3 }
+      BLACK_WOOL: { buy: 12, sell: 3 }
+      WHITE_CONCRETE: { buy: 15, sell: 4 }
+      ORANGE_CONCRETE: { buy: 15, sell: 4 }
+      MAGENTA_CONCRETE: { buy: 15, sell: 4 }
+      LIGHT_BLUE_CONCRETE: { buy: 15, sell: 4 }
+      YELLOW_CONCRETE: { buy: 15, sell: 4 }
+      LIME_CONCRETE: { buy: 15, sell: 4 }
+      PINK_CONCRETE: { buy: 15, sell: 4 }
+      GRAY_CONCRETE: { buy: 15, sell: 4 }
+      LIGHT_GRAY_CONCRETE: { buy: 15, sell: 4 }
+      CYAN_CONCRETE: { buy: 15, sell: 4 }
+      PURPLE_CONCRETE: { buy: 15, sell: 4 }
+      BLUE_CONCRETE: { buy: 15, sell: 4 }
+      BROWN_CONCRETE: { buy: 15, sell: 4 }
+      GREEN_CONCRETE: { buy: 15, sell: 4 }
+      RED_CONCRETE: { buy: 15, sell: 4 }
+      BLACK_CONCRETE: { buy: 15, sell: 4 }
+      WHITE_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      ORANGE_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      MAGENTA_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      LIGHT_BLUE_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      YELLOW_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      LIME_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      PINK_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      GRAY_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      LIGHT_GRAY_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      CYAN_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      PURPLE_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      BLUE_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      BROWN_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      GREEN_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      RED_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      BLACK_CONCRETE_POWDER: { buy: 12, sell: 3 }
+      TERRACOTTA: { buy: 15, sell: 4 }
+      WHITE_TERRACOTTA: { buy: 15, sell: 4 }
+      ORANGE_TERRACOTTA: { buy: 15, sell: 4 }
+      MAGENTA_TERRACOTTA: { buy: 15, sell: 4 }
+      LIGHT_BLUE_TERRACOTTA: { buy: 15, sell: 4 }
+      YELLOW_TERRACOTTA: { buy: 15, sell: 4 }
+      LIME_TERRACOTTA: { buy: 15, sell: 4 }
+      PINK_TERRACOTTA: { buy: 15, sell: 4 }
+      GRAY_TERRACOTTA: { buy: 15, sell: 4 }
+      LIGHT_GRAY_TERRACOTTA: { buy: 15, sell: 4 }
+      CYAN_TERRACOTTA: { buy: 15, sell: 4 }
+      PURPLE_TERRACOTTA: { buy: 15, sell: 4 }
+      BLUE_TERRACOTTA: { buy: 15, sell: 4 }
+      BROWN_TERRACOTTA: { buy: 15, sell: 4 }
+      GREEN_TERRACOTTA: { buy: 15, sell: 4 }
+      RED_TERRACOTTA: { buy: 15, sell: 4 }
+      BLACK_TERRACOTTA: { buy: 15, sell: 4 }
+      WHITE_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      ORANGE_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      MAGENTA_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      LIGHT_BLUE_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      YELLOW_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      LIME_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      PINK_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      GRAY_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      LIGHT_GRAY_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      CYAN_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      PURPLE_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      BLUE_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      BROWN_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      GREEN_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      RED_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      BLACK_GLAZED_TERRACOTTA: { buy: 25, sell: 6 }
+      WHITE_STAINED_GLASS: { buy: 12, sell: 3 }
+      ORANGE_STAINED_GLASS: { buy: 12, sell: 3 }
+      MAGENTA_STAINED_GLASS: { buy: 12, sell: 3 }
+      LIGHT_BLUE_STAINED_GLASS: { buy: 12, sell: 3 }
+      YELLOW_STAINED_GLASS: { buy: 12, sell: 3 }
+      LIME_STAINED_GLASS: { buy: 12, sell: 3 }
+      PINK_STAINED_GLASS: { buy: 12, sell: 3 }
+      GRAY_STAINED_GLASS: { buy: 12, sell: 3 }
+      LIGHT_GRAY_STAINED_GLASS: { buy: 12, sell: 3 }
+      CYAN_STAINED_GLASS: { buy: 12, sell: 3 }
+      PURPLE_STAINED_GLASS: { buy: 12, sell: 3 }
+      BLUE_STAINED_GLASS: { buy: 12, sell: 3 }
+      BROWN_STAINED_GLASS: { buy: 12, sell: 3 }
+      GREEN_STAINED_GLASS: { buy: 12, sell: 3 }
+      RED_STAINED_GLASS: { buy: 12, sell: 3 }
+      BLACK_STAINED_GLASS: { buy: 12, sell: 3 }
+      OAK_PLANKS: { buy: 8, sell: 2 }
+      SPRUCE_PLANKS: { buy: 8, sell: 2 }
+      BIRCH_PLANKS: { buy: 8, sell: 2 }
+      JUNGLE_PLANKS: { buy: 8, sell: 2 }
+      ACACIA_PLANKS: { buy: 8, sell: 2 }
+      DARK_OAK_PLANKS: { buy: 8, sell: 2 }
+      MANGROVE_PLANKS: { buy: 8, sell: 2 }
+      CHERRY_PLANKS: { buy: 8, sell: 2 }
+      BAMBOO_PLANKS: { buy: 8, sell: 2 }
+      CRIMSON_PLANKS: { buy: 8, sell: 2 }
+      WARPED_PLANKS: { buy: 8, sell: 2 }
+      OAK_LOG: { buy: 12, sell: 3 }
+      SPRUCE_LOG: { buy: 12, sell: 3 }
+      BIRCH_LOG: { buy: 12, sell: 3 }
+      JUNGLE_LOG: { buy: 12, sell: 3 }
+      ACACIA_LOG: { buy: 12, sell: 3 }
+      DARK_OAK_LOG: { buy: 12, sell: 3 }
+      MANGROVE_LOG: { buy: 12, sell: 3 }
+      CHERRY_LOG: { buy: 12, sell: 3 }
+      CRIMSON_STEM: { buy: 12, sell: 3 }
+      WARPED_STEM: { buy: 12, sell: 3 }
+      BAMBOO_BLOCK: { buy: 12, sell: 3 }
+      NETHERRACK: { buy: 3, sell: 1 }
+      NETHER_BRICKS: { buy: 15, sell: 4 }
+      RED_NETHER_BRICKS: { buy: 18, sell: 4 }
+      NETHER_WART_BLOCK: { buy: 20, sell: 5 }
+      WARPED_WART_BLOCK: { buy: 20, sell: 5 }
+      SOUL_SAND: { buy: 10, sell: 2 }
+      SOUL_SOIL: { buy: 10, sell: 2 }
+      MAGMA_BLOCK: { buy: 25, sell: 6 }
+      GLOWSTONE: { buy: 40, sell: 10 }
+      SHROOMLIGHT: { buy: 50, sell: 12 }
+      POLISHED_BLACKSTONE: { buy: 14, sell: 3 }
+      POLISHED_BLACKSTONE_BRICKS: { buy: 16, sell: 4 }
+      GILDED_BLACKSTONE: { buy: 60, sell: 15 }
+      OBSIDIAN: { buy: 80, sell: 20 }
+      CRYING_OBSIDIAN: { buy: 150, sell: 40 }
+      BONE_BLOCK: { buy: 30, sell: 7 }
+      QUARTZ_BLOCK: { buy: 40, sell: 10 }
+      SMOOTH_QUARTZ: { buy: 40, sell: 10 }
+      QUARTZ_BRICKS: { buy: 45, sell: 11 }
+      QUARTZ_PILLAR: { buy: 40, sell: 10 }
+      CHISELED_QUARTZ_BLOCK: { buy: 45, sell: 11 }
+      END_STONE: { buy: 25, sell: 5 }
+      END_STONE_BRICKS: { buy: 28, sell: 7 }
+      PURPUR_BLOCK: { buy: 35, sell: 8 }
+      PURPUR_PILLAR: { buy: 35, sell: 8 }
+      PRISMARINE: { buy: 30, sell: 7 }
+      PRISMARINE_BRICKS: { buy: 35, sell: 8 }
+      DARK_PRISMARINE: { buy: 40, sell: 10 }
+      SEA_LANTERN: { buy: 60, sell: 15 }
+      COPPER_BLOCK: { buy: 100, sell: 25 }
+      CUT_COPPER: { buy: 100, sell: 25 }
+      AMETHYST_BLOCK: { buy: 100, sell: 25 }
+      BOOKSHELF: { buy: 80, sell: 20 }
+  combat:
+    title: "&8▶ Combat Shop"
+    icon: IRON_SWORD
+    slot: 12
+    color: "&c"
+    display-name: Combat
+    items:
+      WOODEN_SWORD: { buy: 30, sell: 4 }
+      STONE_SWORD: { buy: 60, sell: 8 }
+      IRON_SWORD: { buy: 150, sell: 20 }
+      DIAMOND_SWORD: { buy: 800, sell: 100 }
+      NETHERITE_SWORD: { buy: 3000, sell: -1 }
+      BOW: { buy: 120, sell: 15 }
+      CROSSBOW: { buy: 200, sell: 25 }
+      ARROW: { buy: 5, sell: 1 }
+      SPECTRAL_ARROW: { buy: 15, sell: 3 }
+      SHIELD: { buy: 100, sell: 15 }
+      TRIDENT: { buy: 1500, sell: -1 }
+      IRON_HELMET: { buy: 200, sell: 25 }
+      IRON_CHESTPLATE: { buy: 320, sell: 40 }
+      IRON_LEGGINGS: { buy: 280, sell: 35 }
+      IRON_BOOTS: { buy: 160, sell: 20 }
+      DIAMOND_HELMET: { buy: 1000, sell: 120 }
+      DIAMOND_CHESTPLATE: { buy: 1600, sell: 200 }
+      DIAMOND_LEGGINGS: { buy: 1400, sell: 175 }
+      DIAMOND_BOOTS: { buy: 800, sell: 100 }
+      GOLDEN_APPLE: { buy: 200, sell: 50 }
+      ENDER_PEARL: { buy: 100, sell: 15 }
+      TOTEM_OF_UNDYING: { buy: 2500, sell: -1 }
+      COBWEB: { buy: 30, sell: 6 }
+      FLINT_AND_STEEL: { buy: 40, sell: 8 }
+  food:
+    title: "&8▶ Food Shop"
+    icon: GOLDEN_APPLE
+    slot: 13
+    color: "&6"
+    display-name: Food
+    items:
+      BREAD: { buy: 10, sell: 3 }
+      SWEET_BERRIES: { buy: 6, sell: 1 }
+      MELON_SLICE: { buy: 5, sell: 1 }
+      CARROT: { buy: 6, sell: 1 }
+      APPLE: { buy: 10, sell: 2 }
+      COOKED_CHICKEN: { buy: 15, sell: 4 }
+      COOKED_BEEF: { buy: 18, sell: 5 }
+      GOLDEN_CARROT: { buy: 40, sell: 10 }
+      GOLDEN_APPLE: { buy: 200, sell: 50 }
+  redstone:
+    title: "&8▶ Redstone Shop"
+    icon: REDSTONE
+    slot: 14
+    color: "&4"
+    display-name: Redstone
+    page-rows: 3
+    items:
+      REDSTONE: { buy: 15, sell: 4 }
+      REDSTONE_BLOCK: { buy: 120, sell: 30 }
+      REDSTONE_TORCH: { buy: 20, sell: 5 }
+      REPEATER: { buy: 40, sell: 10 }
+      COMPARATOR: { buy: 70, sell: 18 }
+      OBSERVER: { buy: 60, sell: 15 }
+      REDSTONE_LAMP: { buy: 40, sell: 10 }
+      TARGET: { buy: 30, sell: 8 }
+      DAYLIGHT_DETECTOR: { buy: 70, sell: 18 }
+      PISTON: { buy: 50, sell: 12 }
+      STICKY_PISTON: { buy: 80, sell: 20 }
+      LEVER: { buy: 10, sell: 2 }
+      STONE_BUTTON: { buy: 8, sell: 2 }
+      OAK_FENCE_GATE: { buy: 15, sell: 4 }
+      DISPENSER: { buy: 60, sell: 15 }
+      DROPPER: { buy: 55, sell: 14 }
+      HOPPER: { buy: 100, sell: 25 }
+      CRAFTER: { buy: 120, sell: 30 }
+      SLIME_BLOCK: { buy: 60, sell: 15 }
+      HONEY_BLOCK: { buy: 60, sell: 15 }
+      NOTE_BLOCK: { buy: 40, sell: 10 }
+      POWERED_RAIL: { buy: 60, sell: 15 }
+      DETECTOR_RAIL: { buy: 40, sell: 10 }
+      SNOW_BLOCK: { buy: 10, sell: 2 }
+      ICE: { buy: 12, sell: 3 }
+      PACKED_ICE: { buy: 25, sell: 6 }
+      OAK_LEAVES: { buy: 8, sell: 2 }
+      TRAPPED_CHEST: { buy: 50, sell: 12 }
+      WATER_BUCKET: { buy: 30, sell: 8 }
+      FURNACE: { buy: 20, sell: 5 }
+      BLUE_ICE: { buy: 60, sell: 15 }
+      RAIL: { buy: 20, sell: 5 }
+      TRIPWIRE_HOOK: { buy: 25, sell: 6 }
+      TNT: { buy: 120, sell: 30 }
+      LIGHTNING_ROD: { buy: 80, sell: 20 }
+      SCULK_SENSOR: { buy: 150, sell: 38 }
+      CALIBRATED_SCULK_SENSOR: { buy: 250, sell: 60 }
+      COPPER_BULB: { buy: 90, sell: 22 }
+      LIGHT_WEIGHTED_PRESSURE_PLATE: { buy: 15, sell: 4 }
+      HEAVY_WEIGHTED_PRESSURE_PLATE: { buy: 15, sell: 4 }
+      STONE_PRESSURE_PLATE: { buy: 10, sell: 2 }
+      OAK_PRESSURE_PLATE: { buy: 10, sell: 2 }
+      OAK_BUTTON: { buy: 8, sell: 2 }
+      POLISHED_BLACKSTONE_BUTTON: { buy: 8, sell: 2 }
+      CHEST: { buy: 15, sell: 4 }
+  gems:
+    title: "&8▶ Gems Shop"
+    icon: AMETHYST_SHARD
+    slot: 15
+    color: "&d"
+    display-name: Gems
+    button-name: Gems Shop
+    currency: gems
+    items:
+      ELYTRA: { buy: 100, sell: -1 }
+      TOTEM_OF_UNDYING: { buy: 15, sell: -1 }
+      BEACON: { buy: 60, sell: -1 }
+      NETHER_STAR: { buy: 80, sell: -1 }
+      ENCHANTED_GOLDEN_APPLE: { buy: 25, sell: -1 }
+      EXPERIENCE_BOTTLE: { buy: 1, sell: -1 }
+      SHULKER_BOX: { buy: 20, sell: -1 }
+      NETHERITE_INGOT: { buy: 40, sell: -1 }
